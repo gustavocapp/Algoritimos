@@ -30,3 +30,15 @@ vm = float(input('Informe a velocidade média: '))
 dist = vm * tempo
 consumo = dist / 12
 print('Informações da viagem: ', vm, tempo, dist, consumo)
+
+#------------------------------------
+
+c = float(input('Informe o comprimento: '))
+l = float(input('Informe a largura: '))
+p = float(input('Informe o preço: '))
+
+#------------------------------------
+
+num = int(input('Informe o número: '))
+invertido = int(str(num)[::-1])
+print(invertido)
